@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'avantgarde_lt_extralightRg';
+    src: url('../fonts/itc_avant_garde_gothic_lt_extra_light-webfont.eot');
+    src: url('../fonts/itc_avant_garde_gothic_lt_extra_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/itc_avant_garde_gothic_lt_extra_light-webfont.woff2') format('woff2'),
+         url('../fonts/itc_avant_garde_gothic_lt_extra_light-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'subwayregular';
+    src: url('../fonts/subway-webfont.eot');
+    src: url('../fonts/subway-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/subway-webfont.woff2') format('woff2'),
+         url('../fonts/subway-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'olivierregular';
+    src: url('../fonts/olivier_01-webfont.eot');
+    src: url('../fonts/olivier_01-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/olivier_01-webfont.woff2') format('woff2'),
+         url('../fonts/olivier_01-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'roboto_lightregular';
+    src: url('../fonts/roboto-light-webfont.eot');
+    src: url('../fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-light-webfont.woff2') format('woff2'),
+		 url('../fonts/roboto-light-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'roboto_thinregular';
+    src: url('../fonts/roboto-thin-webfont.eot');
+    src: url('../fonts/roboto-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-thin-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-thin-webfont.woff') format('woff');
+}
