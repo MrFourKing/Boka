@@ -1,12 +1,53 @@
+@font-face {
+    font-family: 'avantgarde_lt_extralightRg';
+    src: url('../fonts/itc_avant_garde_gothic_lt_extra_light-webfont.eot');
+    src: url('../fonts/itc_avant_garde_gothic_lt_extra_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/itc_avant_garde_gothic_lt_extra_light-webfont.woff2') format('woff2'),
+         url('../fonts/itc_avant_garde_gothic_lt_extra_light-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'subwayregular';
+    src: url('../fonts/subway-webfont.eot');
+    src: url('../fonts/subway-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/subway-webfont.woff2') format('woff2'),
+         url('../fonts/subway-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'olivierregular';
+    src: url('../fonts/olivier_01-webfont.eot');
+    src: url('../fonts/olivier_01-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/olivier_01-webfont.woff2') format('woff2'),
+         url('../fonts/olivier_01-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'roboto_lightregular';
+    src: url('../fonts/roboto-light-webfont.eot');
+    src: url('../fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-light-webfont.woff2') format('woff2'),
+		 url('../fonts/roboto-light-webfont.woff') format('woff');
+}
+
+
+
+
+@font-face {
+    font-family: 'roboto_thinregular';
+    src: url('../fonts/roboto-thin-webfont.eot');
+    src: url('../fonts/roboto-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-thin-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-thin-webfont.woff') format('woff');
+}
+
 body {
 	min-width: 1186px;
 	margin: 0;
 	padding: 0;
-
-	font-family: "Roboto light", sans-serif;
+	font-family: 'roboto_lightregular', sans-serif;
 	color: #1f253d;
 	font-size: 25px;
-
 	background: #ffffff;
 }
 
@@ -25,7 +66,6 @@ body {
 	min-height: 890px;
 	padding: 0;
 	padding-top: 110px;
-
 	background: 
 		#003b52 url("../img/header-back.jpg") no-repeat;
 	background-size: cover;
@@ -79,8 +119,7 @@ body {
 .page-header h2 {
 	margin: 0;
 	margin-left: 154px;
-
-	font-family: "Subway", sans-serif;
+	font-family: "subwayregular", sans-serif;
 	font-size: 60px; 	
 	color: #ffffff;
 	text-transform: lowercase;
@@ -90,9 +129,7 @@ body {
 .page-header h3 {
 	margin: 0;
 	margin-bottom: 134px;
-
-	font-family: 
-		"AvantGarde LT ExtraLight", sans-serif;
+	font-family: "avantgarde_lt_extralightRg", sans-serif;
 	font-size: 30px;
 	text-transform: uppercase;
 	font-weight: normal;
@@ -103,19 +140,13 @@ body {
 .dis-btn {
 	margin: 0;
 	padding: 0;
-
-
 	margin-left: 148px;
 	padding: 23px 33px 22px 32px;
-
 	font-size: 30px;
 	color: #ffffff;
 	text-decoration: none;
-
 	border: 1px solid  #ffffff;
-
 	letter-spacing: 15px;
-
 	border-radius: 10px;
 }
 
@@ -130,8 +161,7 @@ body {
 .get-started h2 {
 	margin: 0;
 	margin: 283px  0 83px 432px;
-
-	font-family: "olivier Regular", sans-serif;
+	font-family: "olivierregular", sans-serif;
 	font-size: 80px;
 	font-weight: normal;
 	letter-spacing: 5px;
@@ -158,7 +188,6 @@ body {
 .get-started .self-gender label{
 	margin-left: 129px;
 	padding: 24px 71px;
-
 	border: 1px solid #1f253d;
 	border-radius: 15px;
 }
@@ -170,9 +199,7 @@ body {
 .get-started .find-gender label {
 	margin-left: 54px;
 	padding: 24px 71px;
-
 	color: #ffffff;
-
 	border: 1px solid #1f253d;
 	border-radius: 15px;
 	background-color: #1f253d;
@@ -202,20 +229,20 @@ body {
 }
 
 .get-started input[type="email"]::-webkit-input-placeholder{
-	font-family: "Roboto light", sans-serif;
+	font-family: "roboto_lightregular", sans-serif;
 	color: #1f253d;
 	font-size: 25px;
 	letter-spacing: 5px;
 }
 
 .get-started input[type="email"]::-moz-placeholder{
-	font-family: "Roboto light", sans-serif;
+	font-family: "roboto_lightregular", sans-serif;
 	color: #1f253d;
 	font-size: 25px;
 }
 
 .get-started input[type="email"]:-ms-input-placeholder {
-	font-family: "Roboto light", sans-serif;
+	font-family: "roboto_lightregular", sans-serif;
 	color: #1f253d;
 	font-size: 25px;
 }
@@ -225,21 +252,21 @@ body {
 }
 
 .get-started input[type="password"]::-webkit-input-placeholder{
-	font-family: "Roboto light", sans-serif;
+	font-family: "roboto_lightregular", sans-serif;
 	color: #1f253d;
 	font-size: 25px;
 	letter-spacing: 5px;
 }
 
 .get-started input[type="password"]::-moz-placeholder{
-	font-family: "Roboto light", sans-serif;
+	font-family: "roboto_lightregular", sans-serif;
 	color: #1f253d;
 	font-size: 25px;
 	letter-spacing: 5px;
 }
 
 .get-started input[type="password"]:-ms-input-placeholder {
-	font-family: "Roboto light", sans-serif;
+	font-family: "roboto_lightregular", sans-serif;
 	color: #1f253d;
 	font-size: 25px;
 	letter-spacing: 5px;
@@ -248,9 +275,7 @@ body {
 .get-started input[type="submit"] {
 	margin-left: 503px;
 	margin-top: 78px;
-
 	padding: 30px 75px;
-
 	font: inherit;
 	font-size: 30px;
 	letter-spacing: 5px;
@@ -278,14 +303,13 @@ body {
 
 .page-footer h2 {
 	margin: 178px 0 20px 290px;
-	font-family: 
-		"AvantGarde LT ExtraLight", sans-serif;
+	font-family: "avantgarde_lt_extralightRg", sans-serif;
 	font-size: 50px;
 	text-transform: uppercase;
 }
 
 .page-footer .tips {
-	font-family: "Roboto Thin", sans-serif;
+	font-family: "roboto_lightregular", sans-serif;
 	font-size: 20px;
 }
 
@@ -302,7 +326,6 @@ body {
 
 .footer-menu li {
 	display: inline-block;
-
 	margin-right:90px;
 	padding-bottom: 35px;
 }
