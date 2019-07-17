@@ -1,92 +1,97 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Boka</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+
 <body>
 	<header class="page-header">
-		<div class="container">
-			<div class="header-top clearfix">
-				<img class="logo-img" src="img/logo_1.png" alt="Boka!">
-				<ul class="language">
-					<li><p class="selected-language">English</p></li>
-					<li><a href="#" onclick="return false">Bangla</a></li>
-					<li><a href="#" onclick="return false">Arabic</a></li>
-					<li><a href="#" onclick="return false">Spanish</a></li>
-				</ul>
-			</div>
-			<div class="header-name">
-				<h2>boka!</h2>
-				<h3>A great dating place</h3>
-				<a class="dis-btn" href="#" onclick="return false">Discover</a>
+		<div class="page-header__container">
+			<img class="page-header__logo-image" src="img/logo_1.png" width="136" height="96" alt="Boka!">
+			<ul class="page-header__language-list">
+				<li class="page-header__language-item">
+					<a class="page-header__language-link page-header__language-link--active">English</a>
+				</li>
+				<li class="page-header__language-item">
+					<a class="page-header__language-link" href="#" onclick="return false">Bangla</a>
+				</li>
+				<li class="page-header__language-item">
+					<a class="page-header__language-link" href="#" onclick="return false">Arabic</a>
+				</li>
+				<li class="page-header__language-item">
+					<a class="page-header__language-link" href="#" onclick="return false">Spanish</a>
+				</li>
+			</ul>
+			<div class="page-header__wrap">
+				<h1 class="page-header__title">boka!</h1>
+				<p class="page-header__subtitle">A great dating place</p>
+				<a class=" button page-header__button" href="#" onclick="return false">Discover</a>
 			</div>
 		</div>
 	</header>
-	<section class="get-started">
-		<div class="container">
-			<h2>Get Started</h2>
-			<form action="#" method="get" class="dating-form">
-				<p class="self-gender">I am
-						<input type="radio" name="gender-one" value="men" id="self-men">
-						<label for="self-men">Men
-					</label>
-						<input type="radio" name="gender-one" value="women" id="self-women">
-					<label for="self-women">
-						Women
-					</label>
-				</p>
-				<p class="find-gender">Looking for
-					<input type="checkbox" name="gender-two" value="men" id="find-men">
-					<label for="find-men">
-						Men
-					</label>
-					<input type="checkbox" name="gender-two" value="women" id="find-women">
-					<label for="find-women">
-						Women
-					</label>
-				</p>
-				<p>
-					<label>email
-						<input type="email" name="email" placeholder="enter your email">
-					</label>
-				</p>
-				<p>
-					<label>Password
-						<input type="password" name="password" placeholder="enter password">
-					</label>
-				</p>
-				<input type="submit" name="sub-btn" id="sub-btn" value="Join now">
+	<main class="container">
+		<section class="get-started">
+			<h2 class="get-started__title">Get Started</h2>
+			<form class="dating-form get-started__dating-form" action="https://echo.htmlacademy.ru" method="POST">
+				<div class="dating-form__choose-wrap">
+					<span class="dating-form__input-name">I am</span>
+					<input class="dating-form__input visually-hidden" id="self-men" type="radio" name="self-gender" value="men">
+					<label class="dating-form__gender" for="self-men">Men</label>
+					<input class="dating-form__input visually-hidden" id="self-women" type="radio" name="self-gender" value="women">
+					<label class="dating-form__gender" for="self-women">Women</label>
+				</div>
+				<div class="dating-form__choose-wrap">
+					<span class="dating-form__input-name">Looking for</span>
+					<input class="dating-form__input visually-hidden" id="find-men" type="checkbox" name="men" checked>
+					<label class="dating-form__gender" for="find-men">Men</label>
+					<input class="dating-form__input visually-hidden" id="find-women" type="checkbox" name="women" checked>
+					<label class="dating-form__gender" for="find-women">Women</label>
+				</div>
+				<div class="dating-form__reg-data-wrap">
+					<label class="dating-form__input-name" for="email">email</label>
+					<input class="dating-form__reg-data" id="email" type="email" name="email" placeholder="enter your email">
+				</div>
+				<div class="dating-form__reg-data-wrap">
+					<label class="dating-form__input-name" for="password">Password</label>
+					<input class="dating-form__reg-data dating-form__reg-data--password" id="password" type="password"
+						name="password" placeholder="enter password">
+				</div>
+				<button class=" button dating-form__button" type="submit">Join now</button>
 			</form>
-			<p class="condition">
+			<p class="get-started__condition">
 				By registering you agree to the Terms and Conditions or Privacy Policy.<br>
 				You will receive all communication from Boka directly in your mail box.
 			</p>
-		</div>
-	</section>
-	<section class="models">
-		<div class="container clearfix">
-			<div class="first-line">
-				<img src="img/model-1.png" alt="model-1">
-				<img src="img/model-2.png" alt="model-2">
+		</section>
+		<section class="models">
+			<div class="container clearfix">
+				<div class="first-line">
+					<img src="img/model-1.png" alt="model-1">
+					<img src="img/model-2.png" alt="model-2">
+				</div>
+				<div class="second-line">
+					<img src="img/model-3.png" alt="model-3">
+					<img src="img/model-5.png" alt="model-4">
+					<img src="img/model-4.png" alt="model-5">
+				</div>
 			</div>
-			<div class="second-line">
-				<img src="img/model-3.png" alt="model-3">
-				<img src="img/model-5.png" alt="model-4">
-				<img src="img/model-4.png" alt="model-5">
-			</div>
-		</div>
-	</section>
+		</section>
+	</main>
 	<footer class="page-footer">
 		<div class="container clearfix">
 			<h2>Tips for first Dating</h2>
 			<p class="tips">
-				Dating is sometimes harder than it should be. After countless dinners and drinks, it can be tempting to throw in the towel and resign to nights of forever watching Netflix alone inyo-ur bed. But when dating is done right, it can be amazing, and those great dates often lead to great relationships. So consider this your dating playbook, with all the information you need to survive the first date and make sure there's a second one..
+				Dating is sometimes harder than it should be. After countless dinners and drinks, it can be tempting to throw in
+				the towel and resign to nights of forever watching Netflix alone inyo-ur bed. But when dating is done right, it
+				can be amazing, and those great dates often lead to great relationships. So consider this your dating playbook,
+				with all the information you need to survive the first date and make sure there's a second one..
 			</p>
 			<p class="copyright">
-				Copyright © 2017 Boka. All rights reserved. 1170pxX4000px. 
+				Copyright © 2017 Boka. All rights reserved. 1170pxX4000px.
 			</p>
 			<ul class="footer-menu">
 				<li><a href="" onclick="return false">About us</a></li>
@@ -96,7 +101,8 @@
 				<li><a href="" onclick="return false">Contact us</a></li>
 				<li><a href="" onclick="return false">Press</a></li>
 			</ul>
-		</div>	
+		</div>
 	</footer>
 </body>
+
 </html>
