@@ -1,4 +1,4 @@
-@import "fonts.css";
+/* Common styles*/
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -27,8 +27,9 @@ body {
 	margin: 0;	
 	padding: 0;
 
-	font-family: 'roboto_lightregular', sans-serif;
+	font-family: "roboto", Arial, sans-serif;
 	font-size: 25px;
+	font-weight: 300;
 	color: #1f253d;
 
 	background: #ffffff;
@@ -49,6 +50,7 @@ body {
 	border-radius: 10px;
 }
 
+/*header*/
 .page-header {
 	padding-top: 110px;
 	padding-bottom: 304px;
@@ -118,8 +120,9 @@ body {
 	margin: 0;
 	margin-right: 238px;
 
-	font-family: "subwayregular", sans-serif;
+	font-family: "subway", Arial, sans-serif;
 	font-size: 60px; 	
+	font-weight: 400;
 	color: #ffffff;
 	text-transform: lowercase;
 	letter-spacing: 30px;
@@ -130,9 +133,9 @@ body {
 	margin-right: 94px;
 	margin-bottom: 131px;
 
-	font-family: "avantgarde_lt_extralightRg", sans-serif;
+	font-family: "avantgarde", Arial, sans-serif;
 	font-size: 30px;
-	font-weight: normal;
+	font-weight: 200;
 	text-transform: uppercase;
 	color: #ffffff;
 	letter-spacing: 12px;
@@ -154,6 +157,7 @@ body {
 	opacity: 0.7;
 }
 
+/*get-started section*/
 .get-started {
 	display: flex;
 	flex-direction: column;
@@ -165,13 +169,19 @@ body {
 	margin: 0;
 	margin-bottom: 86px;
 
-	font-family: "olivierregular", sans-serif;
+	font-family: "olivier", Arial, sans-serif;
 	font-size: 80px;
 	font-weight: normal;
 	letter-spacing: 9px;
 	text-align: center;
 }
 
+.get-started__condition {
+	margin: 0;
+	padding: 0;
+}
+
+/*dating-form*/
 .dating-form {
 	display: flex;
 	flex-direction: column;
@@ -262,126 +272,26 @@ body {
 	background-color: #ffffff;
 }
 
-.get-started__condition {
+/*models*/
+.models__list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+}
+
+.models__list-item {
 	margin: 0;
 	padding: 0;
 }
-/*
-.self-gender label,
-.find-gender label {
-	letter-spacing: 4px;
+
+.models__image {
+	display: block;
 }
-
-.get-started .self-gender label{
-	margin-left: 129px;
-	padding: 24px 71px;
-	border: 1px solid #1f253d;
-	border-radius: 15px;
-}
-
-.get-started .self-gender label:last-child {
-	margin-left: 100px;
-}
-
-.get-started .find-gender label {
-	margin-left: 54px;
-	padding: 24px 71px;
-	color: #ffffff;
-	border: 1px solid #1f253d;
-	border-radius: 15px;
-	background-color: #1f253d;
-}
-
-.get-started .find-gender label:last-child {
-	margin-left: 100px;
-}
-
-.get-started .self-gender input[type="radio"]:checked+label {
-	color: #ffffff;
-	background-color: #1f253d;
-}
-
-.get-started .find-gender input[type="checkbox"]:checked+label {
-	color: #1f253d;
-	background-color: #ffffff;
-}
-
-.get-started input[type="email"],
-.get-started input[type="password"] {
-	width: 490px;
-	font: inherit;
-	color: inherit;
-	border: none;
-}
-
-.get-started input[type="email"] {
-	margin-left: 113px;
-	letter-spacing: 5px;
-}
-
-.get-started input[type="email"]::-webkit-input-placeholder{
-	font-family: "roboto_lightregular", sans-serif;
-	color: #1f253d;
-	font-size: 25px;
-	letter-spacing: 5px;
-}
-
-.get-started input[type="email"]::-moz-placeholder{
-	font-family: "roboto_lightregular", sans-serif;
-	color: #1f253d;
-	font-size: 25px;
-}
-
-.get-started input[type="email"]:-ms-input-placeholder {
-	font-family: "roboto_lightregular", sans-serif;
-	color: #1f253d;
-	font-size: 25px;
-}
-
-.get-started input[type="password"] {
-	margin-left: 68px;
-}
-
-.get-started input[type="password"]::-webkit-input-placeholder{
-	font-family: "roboto_lightregular", sans-serif;
-	color: #1f253d;
-	font-size: 25px;
-	letter-spacing: 5px;
-}
-
-.get-started input[type="password"]::-moz-placeholder{
-	font-family: "roboto_lightregular", sans-serif;
-	color: #1f253d;
-	font-size: 25px;
-	letter-spacing: 5px;
-}
-
-.get-started input[type="password"]:-ms-input-placeholder {
-	font-family: "roboto_lightregular", sans-serif;
-	color: #1f253d;
-	font-size: 25px;
-	letter-spacing: 5px;
-}
-
-.get-started input[type="submit"] {
-	margin-left: 503px;
-	margin-top: 78px;
-	padding: 30px 75px;
-	font: inherit;
-	font-size: 30px;
-	letter-spacing: 5px;
-	color: #ffffff;
-	background-color: #1f253d;
-	border-radius: 15px;
-	border-color: #1f253d;
-}
-
-.get-started .condition {
-	margin: 37px 0px 276px 430px;
-	font-size: 15px;
-} */
-
-.models img{
+/* .models img{
 	display: block;
 	float: left;
 	margin: 0 auto;
@@ -389,17 +299,19 @@ body {
 
 .second-line {
 	margin-left: 232px;
-}
+} */
 
 .page-footer h2 {
 	margin: 180px 0 20px 350px;
-	font-family: "avantgarde_lt_extralightRg", sans-serif;
+	font-family: "avantgarde", Arial, sans-serif;
+	font-weight: 200;
 	font-size: 50px;
 	text-transform: uppercase;
 }
 
 .page-footer .tips {
-	font-family: "roboto_lightregular", sans-serif;
+	font-family: "roboto", sans-serif;
+	font-weight: 300;
 	font-size: 20px;
 }
 

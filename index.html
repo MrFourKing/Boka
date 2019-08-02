@@ -5,7 +5,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Boka</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -17,31 +18,32 @@
 					<a class="page-header__language-link page-header__language-link--active">English</a>
 				</li>
 				<li class="page-header__language-item">
-					<a class="page-header__language-link" href="#" onclick="return false">Bangla</a>
+					<a class="page-header__language-link" href="#">Bangla</a>
 				</li>
 				<li class="page-header__language-item">
-					<a class="page-header__language-link" href="#" onclick="return false">Arabic</a>
+					<a class="page-header__language-link" href="#">Arabic</a>
 				</li>
 				<li class="page-header__language-item">
-					<a class="page-header__language-link" href="#" onclick="return false">Spanish</a>
+					<a class="page-header__language-link" href="#">Spanish</a>
 				</li>
 			</ul>
 			<div class="page-header__wrap">
 				<h1 class="page-header__title">boka!</h1>
 				<p class="page-header__subtitle">A great dating place</p>
-				<a class=" button page-header__button" href="#" onclick="return false">Discover</a>
+				<a class=" button page-header__button" href="#get-started">Discover</a>
 			</div>
 		</div>
 	</header>
 	<main class="container">
-		<section class="get-started">
+		<section class="get-started" id="get-started">
 			<h2 class="get-started__title">Get Started</h2>
 			<form class="dating-form get-started__dating-form" action="https://echo.htmlacademy.ru" method="POST">
 				<div class="dating-form__choose-wrap">
 					<span class="dating-form__input-name">I am</span>
 					<input class="dating-form__input visually-hidden" id="self-men" type="radio" name="self-gender" value="men">
 					<label class="dating-form__gender" for="self-men">Men</label>
-					<input class="dating-form__input visually-hidden" id="self-women" type="radio" name="self-gender" value="women">
+					<input class="dating-form__input visually-hidden" id="self-women" type="radio" name="self-gender"
+						value="women">
 					<label class="dating-form__gender" for="self-women">Women</label>
 				</div>
 				<div class="dating-form__choose-wrap">
@@ -68,17 +70,23 @@
 			</p>
 		</section>
 		<section class="models">
-			<div class="container clearfix">
-				<div class="first-line">
-					<img src="img/model-1.png" alt="model-1">
-					<img src="img/model-2.png" alt="model-2">
-				</div>
-				<div class="second-line">
-					<img src="img/model-3.png" alt="model-3">
-					<img src="img/model-5.png" alt="model-4">
-					<img src="img/model-4.png" alt="model-5">
-				</div>
-			</div>
+			<ul class="models__list">
+				<li class="models__list-item">
+					<img class="models__image" src="img/model-1.png" width="500" height="500" alt="model-1">
+				</li>
+				<li class="models__list-item">
+					<img class="models__image" src="img/model-2.png" width="670" height="500" alt="model-2">
+				</li>
+				<li class="models__list-item">
+					<img class="models__image" src="img/model-3.png" width="200" height="300" alt="model-3">
+				</li>
+				<li class="models__list-item">
+					<img class="models__image" src="img/model-5.png" width="300" height="450" alt="model-4">
+				</li>
+				<li class="models__list-item">
+					<img class="models__image" src="img/model-4.png" width="195" height="300" alt="model-5">
+				</li>
+			</ul>
 		</section>
 	</main>
 	<footer class="page-footer">
@@ -94,12 +102,12 @@
 				Copyright © 2017 Boka. All rights reserved. 1170pxX4000px.
 			</p>
 			<ul class="footer-menu">
-				<li><a href="" onclick="return false">About us</a></li>
-				<li><a href="" onclick="return false">Terms</a></li>
-				<li><a href="" onclick="return false">Privacy</a></li>
-				<li><a href="" onclick="return false">Customer Care</a></li>
-				<li><a href="" onclick="return false">Contact us</a></li>
-				<li><a href="" onclick="return false">Press</a></li>
+				<li><a href="#">About us</a></li>
+				<li><a href="#">Terms</a></li>
+				<li><a href="#">Privacy</a></li>
+				<li><a href="#">Customer Care</a></li>
+				<li><a href="#">Contact us</a></li>
+				<li><a href="#">Press</a></li>
 			</ul>
 		</div>
 	</footer>
