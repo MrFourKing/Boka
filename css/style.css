@@ -291,17 +291,9 @@ body {
 .models__image {
 	display: block;
 }
-/* .models img{
-	display: block;
-	float: left;
-	margin: 0 auto;
-}
 
-.second-line {
-	margin-left: 232px;
-} */
-
-.page-footer h2 {
+/*footer*/
+.page-footer__title {
 	margin: 180px 0 20px 350px;
 	font-family: "avantgarde", Arial, sans-serif;
 	font-weight: 200;
@@ -309,43 +301,43 @@ body {
 	text-transform: uppercase;
 }
 
-.page-footer .tips {
+.page-footer__tips {
 	font-family: "roboto", sans-serif;
 	font-weight: 300;
 	font-size: 20px;
 }
 
-.page-footer .copyright {
+.page-footer__copyright {
 	margin: 250px 0 70px 330px;
 	font-size: 20px;
 }
 
-.page-footer .footer-menu {
+.footer-menu {
+	display: flex;
 	margin: 0 30px;
 	padding: 0;
 	list-style: none;
 }
 
-.footer-menu li {
-	display: inline-block;
+.footer-menu__item {
 	margin-right:90px;
 	padding-bottom: 25px;
 	border-bottom: 5px solid transparent;
 }
 
-.footer-menu li:first-child{
+.footer-menu__item:first-child{
 	margin-left: 10px;
 }
 
-.footer-menu li:last-child {
+.footer-menu__item:last-child {
 	margin-right: 0;
+}
+
+.footer-menu__item:hover {
+	border-bottom: 5px solid #1f253d;
 }
 
 .footer-menu a {
 	color: #1f253d;
 	text-decoration: none;
-}
-
-.footer-menu li:hover {
-	border-bottom: 5px solid #1f253d;
 }
